@@ -2,14 +2,15 @@ import react, {useState} from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import Video from '../../videos/video.mp4'
 import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements'
+import {Button} from '../ButtonElement'
 
 const HeroSection = () =>{
 
-    const {hover,setHover} = useState(false)
+    const [hover,setHover] = useState(false);
 
     const onHover = () => {
         setHover(!hover)
-    }
+    };
 
     return(
         <HeroContainer id="home">
@@ -22,7 +23,12 @@ const HeroSection = () =>{
                     Sign up for a new account today and received $205 in credit towards your next payment.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button to="signup" 
+                    onMouseEnter={onHover} 
+                    onMouseLeave={onHover}
+                    primary='true'
+                    dark= 'true'
+                    >
                         Get Started {hover ? <ArrowForward /> : <FaArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
