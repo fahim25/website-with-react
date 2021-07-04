@@ -14,14 +14,15 @@ const  InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, dark
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home" >{buttonLabel}</Button>
+                                    <Button to="home" 
+                                    primary='true'
+                                    dark= 'true' >{buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img  src={img} alt={alt}/>
-                                {/* <ImageOne width='500px' height='500px'/>  */}
+                                <Img width="500px" height="500px"  src={img} alt={alt}/>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
