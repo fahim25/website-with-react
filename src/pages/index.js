@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/Data';
 import Services from '../components/Service';
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
             <InfoSection {...homeObjTwo} />
             <Services /> 
             <InfoSection {...homeObjThree} />
+            <Footer />
         </>
     );
 }
