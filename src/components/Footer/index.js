@@ -1,5 +1,6 @@
 import react from 'react';
 
+import { FooterContainer, FooterWrap, FooterLinkContainer, FooterLinkWrap, FooterLinkItems, FooterLinkTitle, FooterLink} from './FooterElements';
 const Footer = () =>{
     return(
         <FooterContainer>
@@ -45,6 +46,16 @@ const Footer = () =>{
                         </FooterLinkItems>
                     </FooterLinkWrap>
                 </FooterLinkContainer>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to="/">
+                            dolla
+                        </SocialLogo>
+                        <CopyRight>
+                            dolla &copy; 2021
+                        </CopyRight>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
         </FooterContainer>
     )

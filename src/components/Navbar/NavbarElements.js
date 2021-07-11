@@ -14,7 +14,6 @@ export const Nav = styled.nav`
     top:0;
     z-index:10;
 
-
     @media(min-width:960px){
         transition: 0.8s all ease;
     }
@@ -28,7 +27,7 @@ export const NavbarContainer = styled.div`
     width:100%;
     padding: 0 24px;
     max-width:1100px;
-
+    margin: 0 auto;
 `
 
 export const NavLogo = styled(LinkR)`
