@@ -52,8 +52,22 @@ const Footer = () =>{
                             dolla
                         </SocialLogo>
                         <CopyRight>
-                            dolla &copy; 2021
+                            dolla &copy; {new Date().getFullYear} all rights reserved.
                         </CopyRight>
+                        <SocialIcon>
+                            <SocialLink href="//www.facebook.com" target="_blank" aria-label="Facebook">
+                                <FaFacebook />
+                            </SocialLink>
+                            <SocialLink href="/" target="_blank" aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialLink>
+                            <SocialLink href="/" target="_blank" aria-label="Youtube">
+                                <FaYoutube   />
+                            </SocialLink>
+                            <SocialLink href="/" target="_blank" aria-label="Twitter">
+                                <FaTwitter />
+                            </SocialLink>
+                        </SocialIcon>
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>
