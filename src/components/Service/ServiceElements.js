@@ -26,11 +26,11 @@ export const ServicesWrapper = styled.div`
     grid-gap: 16px;
     padding: 0 15px;
     
-    @media screen and(max-widthL: 1000px){
+    @media screen and (max-width: 1000px){
         grid-template-columns: 1fr 1fr;
     }
 
-    @media screen and(max-widthL: 768px){
+    @media screen and (max-width: 768px){
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
