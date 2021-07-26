@@ -29,19 +29,19 @@ const Footer = () =>{
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
 
-                            <FooterLink to="/Home">Home</FooterLink>
-                            <FooterLink to="/service">Investor</FooterLink>
-                            <FooterLink to="/service">How it works</FooterLink>
-                            <FooterLink to="/service">Testimonial</FooterLink>
+                            <FooterLink to="/">Home</FooterLink>
+                            <FooterLink to="/">Investor</FooterLink>
+                            <FooterLink to="/">How it works</FooterLink>
+                            <FooterLink to="/">Testimonial</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle>Video</FooterLinkTitle>
 
-                            <FooterLink to="/Home">Home</FooterLink>
-                            <FooterLink to="/service">Investor</FooterLink>
-                            <FooterLink to="/service">How it works</FooterLink>
-                            <FooterLink to="/service">Testimonial</FooterLink>
+                            <FooterLink to="/">Home</FooterLink>
+                            <FooterLink to="/">Investor</FooterLink>
+                            <FooterLink to="/">How it works</FooterLink>
+                            <FooterLink to="/">Testimonial</FooterLink>
                         </FooterLinkItems>
                     </FooterLinkWrap>
 
@@ -49,19 +49,19 @@ const Footer = () =>{
                         <FooterLinkItems>
                             <FooterLinkTitle>Services</FooterLinkTitle>
 
-                            <FooterLink to="/Home">Home</FooterLink>
-                            <FooterLink to="/service">Investor</FooterLink>
-                            <FooterLink to="/service">How it works</FooterLink>
-                            <FooterLink to="/service">Testimonial</FooterLink>
+                            <FooterLink to="/">Home</FooterLink>
+                            <FooterLink to="/">Investor</FooterLink>
+                            <FooterLink to="/">How it works</FooterLink>
+                            <FooterLink to="/">Testimonial</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle>Widgets</FooterLinkTitle>
 
-                            <FooterLink to="/Home">Home</FooterLink>
-                            <FooterLink to="/service">Investor</FooterLink>
-                            <FooterLink to="/service">How it works</FooterLink>
-                            <FooterLink to="/service">Testimonial</FooterLink>
+                            <FooterLink to="/">Home</FooterLink>
+                            <FooterLink to="/">Investor</FooterLink>
+                            <FooterLink to="/">How it works</FooterLink>
+                            <FooterLink to="/">Testimonial</FooterLink>
                         </FooterLinkItems>
                     </FooterLinkWrap>
                 </FooterLinkContainer>
